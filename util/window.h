@@ -14,6 +14,15 @@
 
 template <typename T, size_t N>
 class Window {
+private:
+    std::mutex lock;
+    // index indicate the latest element in the array
+    bool full = false;
+    size_t valid_size = 0;
+    bool first = true;
+    size_t index = 0;
+    std::array<T, N> window;
+
 public:
     Window() {}
 
@@ -32,12 +41,12 @@ public:
         first = false;
     }
 
-    bool is_full() const {
+    bool is_full() {
         std::lock_guard<std::mutex> locker(lock);
         return full;
     }
 
-    size_t get_size() const {
+    size_t get_size() {
         std::lock_guard<std::mutex> locker(lock);
         return valid_size;
     }
@@ -93,14 +102,6 @@ public:
         return ss.str();
     }
 
-private:
-    std::mutex lock;
-    // index indicate the latest element in the array
-    bool full = false;
-    size_t valid_size = 0;
-    bool first = true;
-    size_t index = 0;
-    std::array<T, N> window;
 };
 
 

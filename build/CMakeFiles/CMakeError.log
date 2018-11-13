@@ -1,0 +1,110 @@
+Performing C++ SOURCE FILE Test CPPTOML_HAS_STD_PUT_TIME failed with the following output:
+Change Dir: /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8d8fe/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8d8fe.dir/build.make CMakeFiles/cmTC_8d8fe.dir/build
+gmake[1]: Entering directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8d8fe.dir/src.cxx.o
+/usr/bin/c++    -Wall -pedantic -DCPPTOML_HAS_STD_PUT_TIME  -std=c++11   -o CMakeFiles/cmTC_8d8fe.dir/src.cxx.o -c /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp/src.cxx
+/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp/src.cxx:5:5: error: ‘put_time’ is not a member of ‘std’
+     std::put_time(&t, "%Y");
+     ^
+gmake[1]: *** [CMakeFiles/cmTC_8d8fe.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_8d8fe/fast] Error 2
+
+Source file was:
+
+#include <iomanip>
+int main() {
+    std::tm t;
+    std::put_time(&t, "%Y");
+    return 0;
+}
+Performing C++ SOURCE FILE Test CPPTOML_HAS_STD_REGEX failed with the following output:
+Change Dir: /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_16122/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_16122.dir/build.make CMakeFiles/cmTC_16122.dir/build
+gmake[1]: Entering directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16122.dir/src.cxx.o
+/usr/bin/c++    -Wall -pedantic -DCPPTOML_HAS_STD_REGEX  -std=c++11   -o CMakeFiles/cmTC_16122.dir/src.cxx.o -c /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_16122
+/opt/cmake-3.11.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16122.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall -pedantic -DCPPTOML_HAS_STD_REGEX  -std=c++11    -rdynamic CMakeFiles/cmTC_16122.dir/src.cxx.o  -o cmTC_16122 
+gmake[1]: Leaving directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+
+Return value: FAILED_TO_RUN
+Source file was:
+
+#include <cstring>
+#include <ctime>
+#include <regex>
+int main() {
+    std::string to_match = "2014-02-05T14:30:05Z";
+    std::regex pattern{"(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2})Z"};
+    std::match_results<std::string::const_iterator> results;
+    std::regex_match(to_match, results, pattern);
+
+    std::tm date;
+    std::memset(&date, '\0', sizeof(date));
+    date.tm_year = stoi(results[1]) - 1900;
+    date.tm_mon = stoi(results[2]) - 1;
+    date.tm_mday = stoi(results[3]);
+    date.tm_hour = stoi(results[4]);
+    date.tm_min = stoi(results[5]);
+    date.tm_sec = stoi(results[6]);
+    return 0;
+}
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_65485/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_65485.dir/build.make CMakeFiles/cmTC_65485.dir/build
+gmake[1]: Entering directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65485.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_65485.dir/CheckSymbolExists.c.o   -c /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_65485
+/opt/cmake-3.11.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65485.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_65485.dir/CheckSymbolExists.c.o  -o cmTC_65485 
+CMakeFiles/cmTC_65485.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_65485] Error 1
+gmake[1]: Leaving directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_65485/fast] Error 2
+
+File /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9cb5a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9cb5a.dir/build.make CMakeFiles/cmTC_9cb5a.dir/build
+gmake[1]: Entering directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cb5a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9cb5a.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.11.3-Linux-x86_64/share/cmake-3.11/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9cb5a
+/opt/cmake-3.11.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb5a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9cb5a.dir/CheckFunctionExists.c.o  -o cmTC_9cb5a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_9cb5a] Error 1
+gmake[1]: Leaving directory `/root/okex/okcoin_bot/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_9cb5a/fast] Error 2
+
+

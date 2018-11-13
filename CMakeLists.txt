@@ -13,13 +13,24 @@ if (Boost_FOUND)
 endif()
 
 # for openssl
-find_package(OPENSSL REQUIRED)
+find_package(OpenSSL 1.0.1 REQUIRED)
+set(OPENSSL_VERSION "1.0.1")
 if( OPENSSL_FOUND )
     include_directories(${OPENSSL_INCLUDE_DIRS})
     message(STATUS "found openssl root ${OPENSSL_ROOT_DIR}")
     message(STATUS "found openssl include ${OPENSSL_INCLUDE_DIRS}")
     message(STATUS "found openssl lib ${OPENSSL_LIBRARIES}")
     message(STATUS "Using OpenSSL ${OPENSSL_VERSION}")
+endif()
+
+# for zlib
+find_package(ZLIB  REQUIRED)
+if( ZLIB_FOUND )
+    include_directories(${ZLIB_INCLUDE_DIRS})
+    message(STATUS "found zlib root ${ZLIB_ROOT_DIR}")
+    message(STATUS "found zlib include ${ZLIB_INCLUDE_DIRS}")
+    message(STATUS "found zlib lib ${ZLIB_LIBRARIES}")
+    message(STATUS "Using ZLIB ${ZLIB_VERSION}")
 endif()
 
 # for rapidjson
@@ -51,7 +62,7 @@ include_directories(okcoin_client)
 include_directories(util)
 include_directories(rest_api/net/http/curl)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -pthread")
 
 set(SOURCE_FILES
         okcoin_client/md5.cpp
@@ -77,6 +88,9 @@ if(Boost_FOUND)
 endif()
 if(OPENSSL_FOUND)
     target_link_libraries(okcoin_bot ${OPENSSL_LIBRARIES})
+endif()
+if(ZLIB_FOUND)
+    target_link_libraries(okcoin_bot ${ZLIB_LIBRARIES})
 endif()
 if(CURL_FOUND)
     target_link_libraries(okcoin_bot ${CURL_LIBRARIES})

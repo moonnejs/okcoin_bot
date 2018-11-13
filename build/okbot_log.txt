@@ -1,0 +1,393 @@
+info 2018-11-13 16:04:28 21236 * log init success.
+info 2018-11-13 16:04:28 21236 * okbot started.
+info 2018-11-13 16:10:28 21610 * log init success.
+info 2018-11-13 16:10:28 21610 * okbot started.
+error 2018-11-13 16:10:30 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:30 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:31 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:31 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:31 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:31 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:32 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:32 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:32 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:32 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:32 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:32 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:33 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:33 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:33 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:33 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:33 21611 * server closed connection, restart okbot.. with retry count 1
+error 2018-11-13 16:10:34 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:34 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:34 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:34 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:34 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:34 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:35 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:35 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:35 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:35 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:36 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:36 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:36 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:36 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:36 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:36 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:37 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:37 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:37 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:37 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:38 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:38 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:38 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:38 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:38 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:38 21616 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:38 21611 * server closed connection, restart okbot.. with retry count 2
+error 2018-11-13 16:10:39 21616 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:39 21616 * send user info request failed. resend after 400ms
+info 2018-11-13 16:10:48 21633 * log init success.
+info 2018-11-13 16:10:48 21633 * okbot started.
+error 2018-11-13 16:10:50 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:50 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:50 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:50 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:50 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:50 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:51 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:51 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:51 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:51 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:52 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:52 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:52 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:52 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:52 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:52 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:53 21634 * server closed connection, restart okbot.. with retry count 1
+error 2018-11-13 16:10:53 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:53 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:53 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:53 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:54 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:54 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:54 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:54 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:54 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:54 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:55 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:55 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:55 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:55 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:56 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:56 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:56 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:56 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:56 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:56 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:57 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:57 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:57 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:57 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:58 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:58 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:58 21634 * server closed connection, restart okbot.. with retry count 2
+error 2018-11-13 16:10:58 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:58 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:58 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:58 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:59 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:59 21640 * send user info request failed. resend after 400ms
+error 2018-11-13 16:10:59 21640 * ok_spotcny_userinfo failed
+error 2018-11-13 16:10:59 21640 * send user info request failed. resend after 400ms
+info 2018-11-13 16:13:43 21876 * log init success.
+info 2018-11-13 16:13:43 21876 * okbot started.
+error 2018-11-13 16:13:45 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:45 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:45 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:45 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:46 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:46 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:46 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:46 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:47 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:47 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:47 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:47 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:47 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:47 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:48 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:48 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:48 21877 * server closed connection, restart okbot.. with retry count 1
+error 2018-11-13 16:13:48 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:48 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:49 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:49 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:49 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:49 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:49 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:49 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:50 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:50 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:50 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:50 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:51 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:51 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:51 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:51 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:51 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:51 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:52 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:52 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:52 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:52 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:53 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:53 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:53 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:53 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:53 21877 * server closed connection, restart okbot.. with retry count 2
+error 2018-11-13 16:13:53 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:53 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:54 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:54 21882 * send user info request failed. resend after 400ms
+error 2018-11-13 16:13:54 21882 * ok_spotcny_userinfo failed
+error 2018-11-13 16:13:54 21882 * send user info request failed. resend after 400ms
+info 2018-11-13 16:14:32 21928 * log init success.
+info 2018-11-13 16:14:32 21928 * okbot started.
+error 2018-11-13 16:14:34 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:34 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:35 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:35 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:35 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:35 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:35 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:35 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:36 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:36 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:36 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:36 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:37 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:37 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:37 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:37 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:37 21929 * server closed connection, restart okbot.. with retry count 1
+error 2018-11-13 16:14:37 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:37 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:38 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:38 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:38 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:38 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:39 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:39 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:39 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:39 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:39 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:39 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:40 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:40 21935 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:40 21935 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:40 21935 * send user info request failed. resend after 400ms
+info 2018-11-13 16:14:46 21946 * log init success.
+info 2018-11-13 16:14:46 21946 * okbot started.
+error 2018-11-13 16:14:48 21952 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:48 21952 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:48 21952 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:48 21952 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:49 21952 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:49 21952 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:49 21952 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:49 21952 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:49 21952 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:49 21952 * send user info request failed. resend after 400ms
+error 2018-11-13 16:14:50 21952 * ok_spotcny_userinfo failed
+error 2018-11-13 16:14:50 21952 * send user info request failed. resend after 400ms
+info 2018-11-13 16:16:23 22115 * log init success.
+info 2018-11-13 16:16:23 22115 * okbot started.
+error 2018-11-13 16:16:25 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:25 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:26 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:26 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:26 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:26 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:26 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:26 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:27 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:27 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:27 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:27 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:28 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:28 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:28 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:28 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:28 22116 * server closed connection, restart okbot.. with retry count 1
+error 2018-11-13 16:16:28 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:28 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:29 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:29 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:29 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:29 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:30 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:30 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:30 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:30 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:30 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:30 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:31 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:31 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:31 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:31 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:32 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:32 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:32 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:32 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:32 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:32 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:33 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:33 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:33 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:33 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:33 22116 * server closed connection, restart okbot.. with retry count 2
+error 2018-11-13 16:16:34 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:34 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:34 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:34 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:34 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:34 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:35 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:35 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:35 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:35 22121 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:36 22121 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:36 22121 * send user info request failed. resend after 400ms
+info 2018-11-13 16:16:42 22137 * log init success.
+info 2018-11-13 16:16:42 22137 * okbot started.
+error 2018-11-13 16:16:44 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:44 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:44 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:44 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:44 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:44 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:45 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:45 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:45 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:45 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:46 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:46 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:46 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:46 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:46 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:46 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:47 22138 * server closed connection, restart okbot.. with retry count 1
+error 2018-11-13 16:16:47 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:47 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:47 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:47 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:48 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:48 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:48 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:48 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:48 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:48 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:49 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:49 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:49 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:49 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:50 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:50 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:50 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:50 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:50 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:50 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:51 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:51 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:51 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:51 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:52 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:52 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:52 22138 * server closed connection, restart okbot.. with retry count 2
+error 2018-11-13 16:16:52 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:52 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:52 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:52 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:53 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:53 22144 * send user info request failed. resend after 400ms
+error 2018-11-13 16:16:53 22144 * ok_spotcny_userinfo failed
+error 2018-11-13 16:16:53 22144 * send user info request failed. resend after 400ms
+info 2018-11-13 16:20:52 22431 * log init success.
+info 2018-11-13 16:20:52 22431 * okbot started.
+error 2018-11-13 16:20:54 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:54 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:54 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:54 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:54 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:54 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:55 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:55 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:55 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:55 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:56 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:56 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:56 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:56 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:56 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:56 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:57 22432 * server closed connection, restart okbot.. with retry count 1
+error 2018-11-13 16:20:57 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:57 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:57 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:57 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:58 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:58 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:58 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:58 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:58 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:58 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:59 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:59 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:20:59 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:20:59 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:00 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:00 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:00 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:00 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:00 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:00 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:01 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:01 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:01 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:01 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:02 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:02 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:02 22432 * server closed connection, restart okbot.. with retry count 2
+error 2018-11-13 16:21:02 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:02 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:02 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:02 22438 * send user info request failed. resend after 400ms
+error 2018-11-13 16:21:03 22438 * ok_spotcny_userinfo failed
+error 2018-11-13 16:21:03 22438 * send user info request failed. resend after 400ms
+info 2018-11-13 16:25:42 22750 * log init success.
+info 2018-11-13 16:25:42 22750 * okbot started.
+error 2018-11-13 16:25:44 22757 * ok_spotcny_userinfo failed
+error 2018-11-13 16:25:44 22757 * send user info request failed. resend after 400ms
+error 2018-11-13 16:25:44 22757 * ok_spotcny_userinfo failed
+error 2018-11-13 16:25:44 22757 * send user info request failed. resend after 400ms
+error 2018-11-13 16:25:44 22757 * ok_spotcny_userinfo failed
+error 2018-11-13 16:25:44 22757 * send user info request failed. resend after 400ms
+error 2018-11-13 16:25:45 22757 * ok_spotcny_userinfo failed
+error 2018-11-13 16:25:45 22757 * send user info request failed. resend after 400ms
+info 2018-11-13 16:27:48 22945 * log init success.
+info 2018-11-13 16:27:48 22945 * okbot started.
+error 2018-11-13 16:27:50 22951 * ok_spotcny_userinfo failed
+error 2018-11-13 16:27:50 22951 * send user info request failed. resend after 400ms
+error 2018-11-13 16:27:50 22951 * ok_spotcny_userinfo failed
+error 2018-11-13 16:27:50 22951 * send user info request failed. resend after 400ms
+error 2018-11-13 16:27:51 22951 * ok_spotcny_userinfo failed
+error 2018-11-13 16:27:51 22951 * send user info request failed. resend after 400ms
+error 2018-11-13 16:27:51 22951 * ok_spotcny_userinfo failed
+error 2018-11-13 16:27:51 22951 * send user info request failed. resend after 400ms
+error 2018-11-13 16:27:52 22951 * ok_spotcny_userinfo failed
+error 2018-11-13 16:27:52 22951 * send user info request failed. resend after 400ms
+error 2018-11-13 16:27:52 22951 * ok_spotcny_userinfo failed
+error 2018-11-13 16:27:52 22951 * send user info request failed. resend after 400ms

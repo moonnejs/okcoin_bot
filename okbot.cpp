@@ -27,11 +27,11 @@ void cn_callbak_open()
 	//所以尽量要把行情类的接收请求放在本回调里。
 	if(cnapi != 0)
 	{
-		//cnapi->ok_spotcny_btc_depth_20();
-        //cnapi->ok_spotcny_btc_trades();
-        //cnapi->ok_spotcny_btc_ticker();
-        //cnapi->ok_spotcny_btc_kline_5min();
-        cnapi->ok_spotcny_btc_kline_1min();
+		//cnapi->ok_spot_btc_depth_20();
+        //cnapi->ok_spot_btc_trades();
+        //cnapi->ok_spot_btc_ticker();
+        //cnapi->ok_spot_btc_kline_5min();
+        cnapi->ok_spot_btc_kline_1min();
 	}
 };
 void cn_callbak_close()
@@ -127,12 +127,13 @@ int main(int argc, char* argv[])
             switch (i) {
                 case 1:
                     //trade.buy_at_market(123.4);
+                    cnapi->ok_spot_btc_ticker();
                     break;
                 case 2:
 
                     break;
                 case 3:
-                    cnapi->remove_ok_spotcny_btc_ticker();
+                    cnapi->remove_ok_spot_btc_ticker();
                 case 0:
                     goto out_loop;
                 default:

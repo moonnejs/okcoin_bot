@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -pthread   CMakeFiles/emailTests.dir/test/email/test_email.cpp.cpp.o  -o emailTests -Wl,-rpath,/usr/local/lib lib/gtest-1.8.0/libgtest.a lib/gtest-1.8.0/libgtest_main.a /usr/local/lib/libboost_system.so /usr/local/lib/libboost_filesystem.so /usr/local/lib/libboost_regex.so lib/gtest-1.8.0/libgtest.a -lpthread 

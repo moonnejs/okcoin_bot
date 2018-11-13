@@ -7,8 +7,8 @@
 
 #include "websocket.h"
 
-#define URL_CN						"wss://real.okcoin.cn:10440/websocket/okcoinapi"
-#define URL_COM						"wss://real.okcoin.com:10440/websocket/okcoinapi"
+#define URL_CN						"wss://real.okex.com:10440/websocket/okexapi?compress=true"
+#define URL_COM						"wss://real.okex.com:10440/websocket/okexapi?compress=true"
 
 class OKCoinWebSocketApi
 {
@@ -57,19 +57,19 @@ public:
 	~OKCoinWebSocketApiCn(){};
 
 	//获取OKCoin现货行情数据
-	void ok_spotcny_btc_ticker();				//比特币行情数据
-	void ok_spotcny_btc_depth_20();				//比特币20条市场深度
-	void ok_spotcny_btc_trades();				//比特币成交记录
-	void ok_spotcny_btc_kline_1min();			//比特币一分钟K线数据
-    void ok_spotcny_btc_kline_5min();			//比特币一分钟K线数据
+	void ok_spot_btc_ticker();				//比特币行情数据
+	void ok_spot_btc_depth_20();				//比特币20条市场深度
+	void ok_spot_btc_trades();				//比特币成交记录
+	void ok_spot_btc_kline_1min();			//比特币一分钟K线数据
+    void ok_spot_btc_kline_5min();			//比特币一分钟K线数据
 
 	//用OKCoin进行交易
-	void ok_spotcny_trades();				//实时交易数据
-	void ok_spotcny_trade(std::string &symbol,std::string &type,std::string &price,std::string &amount);	//下单交易
-	void ok_spotcny_cancel_order(std::string &symbol,std::string &order_id);				//取消订单
+	void ok_spot_trades();				//实时交易数据
+	void ok_spot_trade(std::string &symbol,std::string &type,std::string &price,std::string &amount);	//下单交易
+	void ok_spot_cancel_order(std::string &symbol,std::string &order_id);				//取消订单
 
 	//注销请求
-	void remove_ok_spotcny_btc_ticker();			//比特币行情数据
+	void remove_ok_spot_btc_ticker();			//比特币行情数据
 };
 
 

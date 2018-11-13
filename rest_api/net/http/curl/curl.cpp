@@ -3,6 +3,8 @@
 #include "curl.h"
 #include <list>
 #include <cstdlib>
+#include <iostream>
+#include <cstring>
 
 using namespace std;
 #include "uri.h"

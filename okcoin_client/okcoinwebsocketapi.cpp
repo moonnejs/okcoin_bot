@@ -1,6 +1,7 @@
 #include <trade.h>
 #include "okcoinwebsocketapi.h"
 #include "parameter.h"
+#include <zlib.h>
 #include "util/email_client.h"
 #include "util/singleton.h"
 
@@ -134,41 +135,41 @@ void OKCoinWebSocketApi::SetCallBackMessage(websocketpp_callbak_message callbak_
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 //获取OKCoin现货行情数据
-void OKCoinWebSocketApiCn::ok_spotcny_btc_ticker() //比特币行情数据
+void OKCoinWebSocketApiCn::ok_spot_btc_ticker() //比特币行情数据
 {
-	Emit("ok_sub_spotcny_btc_ticker");
+	Emit("ok_sub_spot_btcusdt_ticker");
 }
-void OKCoinWebSocketApiCn::ok_spotcny_btc_depth_20() //比特币20条市场深度
+void OKCoinWebSocketApiCn::ok_spot_btc_depth_20() //比特币20条市场深度
 {
-	Emit("ok_sub_spotcny_btc_depth_20");
+	Emit("ok_sub_spot_btcusdt_depth_20");
 }
-void OKCoinWebSocketApiCn::ok_spotcny_btc_trades() //比特币实时成交记录
+void OKCoinWebSocketApiCn::ok_spot_btc_trades() //比特币实时成交记录
 {
-	Emit("ok_sub_spotcny_btc_trades");
+	Emit("ok_sub_spot_btcusdt_trades");
 }
-void OKCoinWebSocketApiCn::ok_spotcny_btc_kline_1min() //比特币K线数据
+void OKCoinWebSocketApiCn::ok_spot_btc_kline_1min() //比特币K线数据
 {
-	Emit("ok_sub_spotcny_btc_kline_1min");
+	Emit("ok_sub_spot_btcusdt_kline_1min");
 }
 
-void OKCoinWebSocketApiCn::ok_spotcny_btc_kline_5min() //比特币K线数据
+void OKCoinWebSocketApiCn::ok_spot_btc_kline_5min() //比特币K线数据
 {
-    Emit("ok_sub_spotcny_btc_kline_5min");
+    Emit("ok_sub_spot_btc_kline_5min");
 }
 
 //用OKCoin进行现货交易
-void OKCoinWebSocketApiCn::ok_spotcny_trades() //订阅交易数据
+void OKCoinWebSocketApiCn::ok_spot_trades() //订阅交易数据
 {
 	Parameter prmt;
 	prmt.AddParam("api_key",m_api_key);
 	string sign = prmt.GetSign(m_secret_key);
 	prmt.AddParam("sign",sign);
 	string prmtstr = prmt.ToJsonString();
-	Emit("ok_sub_spotcny_trades",prmtstr);
+	Emit("ok_sub_spot_btcusdt_trades",prmtstr);
 	return ;
 }
 
-void OKCoinWebSocketApiCn::ok_spotcny_trade(string &symbol,string &type,string &price,string &amount) //下单交易
+void OKCoinWebSocketApiCn::ok_spot_trade(string &symbol,string &type,string &price,string &amount) //下单交易
 {
 	Parameter prmt;
 	prmt.AddParam("api_key",m_api_key);
@@ -180,10 +181,10 @@ void OKCoinWebSocketApiCn::ok_spotcny_trade(string &symbol,string &type,string &
 	string sign = prmt.GetSign(m_secret_key);
 	prmt.AddParam("sign",sign);
 	string prmtstr = prmt.ToJsonString();
-	Emit("ok_spotcny_trade",prmtstr);
+	Emit("ok_spot_trade",prmtstr);
 	return ;
 }
-void OKCoinWebSocketApiCn::ok_spotcny_cancel_order(string &symbol,string &order_id) //取消订单
+void OKCoinWebSocketApiCn::ok_spot_cancel_order(string &symbol,string &order_id) //取消订单
 {
 	Parameter prmt;
 	prmt.AddParam("api_key",m_api_key);
@@ -192,13 +193,13 @@ void OKCoinWebSocketApiCn::ok_spotcny_cancel_order(string &symbol,string &order_
 	string sign = prmt.GetSign(m_secret_key);
 	prmt.AddParam("sign",sign);
 	string prmtstr = prmt.ToJsonString();
-	Emit("ok_spotcny_cancel_order",prmtstr);
+	Emit("ok_spot_cancel_order",prmtstr);
 }
 
 //取消订阅
-void OKCoinWebSocketApiCn::remove_ok_spotcny_btc_ticker() //比特币行情数据
+void OKCoinWebSocketApiCn::remove_ok_spot_btc_ticker() //比特币行情数据
 {
-	Remove("ok_sub_spotcny_btc_ticker");
+	Remove("ok_sub_spot_btcusdt_ticker");
 }
 
 //////////////////////////////////////////////////////////////////////////////////
@@ -206,7 +207,7 @@ void OKCoinWebSocketApiCn::remove_ok_spotcny_btc_ticker() //比特币行情数�
 //获取OKCoin现货行情数据
 void OKCoinWebSocketApiCom::ok_spotusd_btc_ticker() //比特币行情数据
 {
-	Emit("ok_sub_spotusd_btc_ticker");
+	Emit("ok_sub_spot_btcusdt_ticker");
 }
 
 //获取OKCoin合约行情数据

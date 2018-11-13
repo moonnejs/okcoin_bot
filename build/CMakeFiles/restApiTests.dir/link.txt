@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -pthread   CMakeFiles/restApiTests.dir/test/okapi_test/ok_rest_api_test.cpp.o  -o restApiTests -Wl,-rpath,/usr/local/lib lib/gtest-1.8.0/libgtest.a lib/gtest-1.8.0/libgtest_main.a libokcoin_lib.a /usr/local/lib/libcurl.so lib/gtest-1.8.0/libgtest.a -lpthread 

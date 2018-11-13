@@ -1,5 +1,6 @@
 #include "str.h"
 #include <sstream>
+#include <string.h>
 
 //wstring str::GetModuleDirectory()
 //{

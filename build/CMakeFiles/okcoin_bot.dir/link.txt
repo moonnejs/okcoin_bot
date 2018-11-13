@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -pthread   CMakeFiles/okcoin_bot.dir/okbot.cpp.o  -o okcoin_bot -Wl,-rpath,/usr/local/lib:/usr/local/ssl/lib libokcoin_lib.a /usr/local/lib/libboost_system.so /usr/local/lib/libboost_filesystem.so /usr/local/lib/libboost_regex.so /usr/local/ssl/lib/libssl.so /usr/local/ssl/lib/libcrypto.so /usr/local/lib/libz.so /usr/local/lib/libcurl.so 

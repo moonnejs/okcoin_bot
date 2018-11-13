@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/root/okex/okcoin_bot/build/lib/cpptoml-master-20170107/examples",
+  "command": "/usr/bin/c++   -I/usr/local/include -I/root/okex/okcoin_bot/lib/cpptoml-master-20170107/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/cpptoml-conversions.dir/conversions.cpp.o -c /root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/conversions.cpp",
+  "file": "/root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/conversions.cpp"
+},
+{
+  "directory": "/root/okex/okcoin_bot/build/lib/cpptoml-master-20170107/examples",
+  "command": "/usr/bin/c++   -I/usr/local/include -I/root/okex/okcoin_bot/lib/cpptoml-master-20170107/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/cpptoml-build.dir/build_toml.cpp.o -c /root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/build_toml.cpp",
+  "file": "/root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/build_toml.cpp"
+},
+{
+  "directory": "/root/okex/okcoin_bot/build/lib/cpptoml-master-20170107/examples",
+  "command": "/usr/bin/c++   -I/usr/local/include -I/root/okex/okcoin_bot/lib/cpptoml-master-20170107/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/parse.dir/parse.cpp.o -c /root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/parse.cpp",
+  "file": "/root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/parse.cpp"
+},
+{
+  "directory": "/root/okex/okcoin_bot/build/lib/cpptoml-master-20170107/examples",
+  "command": "/usr/bin/c++   -I/usr/local/include -I/root/okex/okcoin_bot/lib/cpptoml-master-20170107/include   -Wall -pedantic   -std=c++11 -o CMakeFiles/cpptoml-parser.dir/parse_stdin.cpp.o -c /root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/parse_stdin.cpp",
+  "file": "/root/okex/okcoin_bot/lib/cpptoml-master-20170107/examples/parse_stdin.cpp"
+}
+]
